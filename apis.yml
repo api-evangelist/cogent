@@ -1,8 +1,15 @@
 aid: cogent
 name: Cogent
-description: 'Cogent is a company surfaced as a portfolio company of bain-capital-ventures, greylock and
-  added to the API Evangelist network as a stub for enrichment. Sector: security. This profile is a lead
-  awaiting the enrichment pipeline.'
+description: 'Cogent Security is an AI-driven vulnerability management platform whose AI agents
+  discover, assess, remediate, and report on software vulnerabilities at machine speed, before
+  attackers can exploit them. The platform spans the CTEM (Continuous Threat Exposure Management)
+  lifecycle: Discover identifies vulnerable software quickly after disclosures, Assess risk-scores
+  and prioritizes remediation, Remediate applies automated and assisted fixes, and Report produces
+  evidence-backed documentation of risk reduction. It is powered by the Cogent AI Engine and Cogent
+  Research with published safety guardrails and defined autonomy levels. Cogent is a venture-backed
+  security company (Bain Capital Ventures, Greylock). Cogent publishes no public developer API,
+  documentation, or SDKs at this time; this profile captures its public web, security, and trust
+  surface for the API Evangelist network.'
 url: https://raw.githubusercontent.com/api-evangelist/cogent/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,12 +18,30 @@ x-backed-by:
 - greylock
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
+image: https://framerusercontent.com/images/Z4XHhprIzu14c3YRO991hAjqDpg.png
 tags:
 - Company
 - Security
+- Vulnerability Management
+- CTEM
+- Exposure Management
+- Agentic AI
+- Cybersecurity
+- Remediation
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -24,5 +49,24 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/cogent-domain-security.yml
+- type: TrustCenter
+  url: security/cogent-trust-center.yml
+- type: Compliance
+  url: https://trust.cogent.security/
 - type: Website
   url: https://www.cogent.com/
+- type: Blog
+  url: https://www.cogent.com/blog
+- type: Support
+  url: https://www.cogent.com/platform/cogent-community
+- type: PrivacyPolicy
+  url: https://www.cogent.com/legal/privacy-policy
+- type: TermsOfService
+  url: https://www.cogent.com/legal/terms
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
