@@ -1,0 +1,29 @@
+# Front Door AI Index — cogent — 2026-09-17
+# AI vocabulary counted on the provider's root page. Generated; do not edit.
+# `score` is null unless ownership is `own` — see front_door_ai.py.
+front_door_ai:
+  slug: cogent
+  lexicon_version: '1.0'
+  probed_at: '2026-09-17'
+  host: www.cogent.com
+  final_host: www.cogent.com
+  ownership: own
+  owner: cogent
+  shares_host_with: null
+  inherited_from: null
+  verdict: scored
+  score: 33
+  host_score: 33
+  density: 37.67
+  words: 876
+  tiers:
+    agentic: 5
+    core: 25
+    model: 3
+  ambiguous: 4
+  top_terms:
+    AI: 25
+    AI agent: 4
+    agent: 4
+    Hugging Face: 3
+    agentic: 1
